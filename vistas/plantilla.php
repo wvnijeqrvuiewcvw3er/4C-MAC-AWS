@@ -243,12 +243,12 @@ session_start();
                                 <?php endif ?>  
                                 <?php if ($_GET["pagina"] == "blog-single"): ?>
                             <li>
-                                <a href="index.php?pagina=contact">Salir</a>
+                                <a href="index.php?pagina=contact">Exist</a>
                             </li>
                         <?php else: ?>
                             <li class="active">
                                 <a href="index.php?pagina=contact">
-                                    <span>Salir</span>
+                                    <span>Exist</span>
                                 </a>
                             </li>
                         <?php endif ?> 
